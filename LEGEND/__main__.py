@@ -82,12 +82,12 @@ buttons = [
        [
         InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
        ],
-       [
+   [
         InlineKeyboardButton(
             text="💫 Add SAVAGE BOT to your group 💫",
             url="t.me/grand50_bot?startgroup=true",
         ),
-        [
+    [
         InlineKeyboardButton(
             text="🔥 OWNER 🔥",
             url="t.me/grand50_bot?startgroup=true",
