@@ -78,11 +78,11 @@ buttons = [
             text="🙏 SUPPORT 🙏",
             url="https://t.me/joinchat/owyiK6yJN3BhYTRl",
         ),  
-        ],
-        [
+    ],
+    [
         InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
-        ],
-   [
+    ],
+    [
         InlineKeyboardButton(
             text="💫 Add SAVAGE BOT to your group 💫",
             url="t.me/grand50_bot?startgroup=true",
