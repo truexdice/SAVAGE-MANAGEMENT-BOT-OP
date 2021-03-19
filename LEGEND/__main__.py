@@ -73,26 +73,17 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 """
 
 buttons = [
-    
-        InlineKeyboardButton(
-            text="🙏 SUPPORT 🙏",
-            url="https://t.me/joinchat/owyiK6yJN3BhYTRl",
-        ),  
+    [
+        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
     ],
     [
         InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add SAVAGE BOT to your group 💫",
+            text="💫 Add LEGEND BOT to your group 💫",
             url="t.me/grand50_bot?startgroup=true",
         ),
-    [
-        InlineKeyboardButton(
-            text="🔥 OWNER 🔥",
-            url="t.me/grand50_bot?startgroup=true",
-        ),
-
     ],
 ]
 
