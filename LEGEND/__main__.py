@@ -65,7 +65,7 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+Hello there, I'm [𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓](https://telegra.ph/file/2978fe958a1c6450d838c.jpg)
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -73,23 +73,31 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 """
 
 buttons = [
-    [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+    
+        InlineKeyboardButton(
+            text="🙏 SUPPORT 🙏",
+            url="https://t.me/joinchat/owyiK6yJN3BhYTRl",
     ],
     [
         InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add LEGEND BOT to your group 💫",
+            text="💫 Add SAVAGE BOT to your group 💫",
             url="t.me/grand50_bot?startgroup=true",
         ),
+        [
+        InlineKeyboardButton(
+            text="🔥 OWNER 🔥",
+            url="t.me/grand50_bot?startgroup=true",
+        ),
+
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
+*Main Commands :* [SAVAGE BOT](https://t.me/joinchat/owyiK6yJN3BhYTRl)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -104,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/teamishere,[LEGEND BOT](t.me/teamishere),"""
+Support them  [N](t.me/SAMEER_795,[SAVAGE BOT](t.me/SAVAGE_MANAGEMENT_BOT),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -361,9 +369,9 @@ def LEGEND_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @LEGENDX22.* "
-            f"\n\n 🔥 Join [GRAND OFFICIAL](https://t.me/teamishere) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [SAVAGE GRP](https://t.me/SAVAGE_MANAGEMENT_BOT) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://t.me/joinchat/owyiK6yJN3BhYTRl)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -398,7 +406,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/teamishere).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/SAVAGE_MANAGEMENT_BOT).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
