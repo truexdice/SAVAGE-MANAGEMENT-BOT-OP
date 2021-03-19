@@ -93,7 +93,7 @@ buttons = [
 ]
 
 
-HELP_STRINGS = f" " 
+HELP_STRINGS = f""" 
 *Main Commands :* [SAVAGE BOT](https://t.me/joinchat/owyiK6yJN3BhYTRl)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
