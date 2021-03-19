@@ -72,6 +72,7 @@ I am an ANIME Themed Group Managing Bot and I will help in managing your group
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
 
+HELP_STRINGS =f"" 
 buttons = [
     [
         InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
