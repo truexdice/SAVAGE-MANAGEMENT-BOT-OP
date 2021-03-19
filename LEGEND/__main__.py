@@ -72,7 +72,6 @@ I am an ANIME Themed Group Managing Bot and I will help in managing your group
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
 
-HELP_STRINGS =f"" 
 buttons = [
     [
         InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
@@ -94,7 +93,7 @@ buttons = [
 ]
 
 
-
+HELP_STRINGS =f"""
 *Main Commands :* [SAVAGE BOT](https://t.me/joinchat/owyiK6yJN3BhYTRl)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
