@@ -64,12 +64,14 @@ from LEGEND.modules.helper_funcs.chat_status import is_user_admin
 from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
-PM_START_TEXT = """
-Hello there, I'm [GRAND OFFICIAL](https://telegra.ph/file/4a14aa91d2276be702ae7.jpg)
-I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
+PM_START_TEXT = """                   
+Hello there, I'm [𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓]()
+I am an anime Themed Group Managing Bot and I will help in managing your group
 ✪ Make sure you read *INFO* Section Below ✪ 
-"""
 
+𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](@sameer_795)
+"""
+              
 buttons = [
     [
         InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
