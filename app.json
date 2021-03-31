@@ -1,5 +1,5 @@
 {
-      "name": "SAMEER OFFICIAL",
+      "name": "MOKIB OFFICIAL",
       "description": "An OP Telegram UserBot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "LEGEND"
       ],   
-   "repository": "https://github.com/sameerpanthi/SAVAGE-MANAGEMENT-BOT-OP",
+   "repository": "https://github.com/mokib795/ACE-MANAGEMENT-BOT-OP",
    "addons": [
       {
          "options": {
@@ -63,12 +63,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "LEGENDX22"
+         "value": "TURU_LOB_0"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "LEGEND_USERBOT_SUPPORT"
+         "value": "TEAM_ACE_ON"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -159,7 +159,7 @@
       },
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
-         "required": false,
+         "": false,
          "value": "https://www.paypal.me/PaulSonOfLars"
       },
       "DEL_CMDS": {
@@ -189,6 +189,6 @@
       "manager",
       "GRAND"
    ],
-   "name": " SAMEER OFFICIAL",
-   "repository": "https://github.com/SAMEERPANTHI/SAVAGE-MANAGEMENT-BOT-OP"
+   "name": " MOKIB OFFICIAL",
+   "repository": "https://github.com/mokib795/ACE-MANAGEMENT-BOT-OP"
 }
